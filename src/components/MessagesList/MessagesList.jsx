@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import PropTypes from 'prop-types';
 
 export const MessagesList = ({ messages }) => {
-  const lastIndex = messages.map(message => message.user)
+  const lastIndexOfInterlocutor = messages.map(message => message.user)
     .lastIndexOf('second');
 
   return (
@@ -23,7 +23,7 @@ export const MessagesList = ({ messages }) => {
             className={
               classNames('App__content-img',
                 { 'App__content-img--active':
-                  index === lastIndex
+                  index === lastIndexOfInterlocutor
                   && element.user === 'second' })
             }
           />
