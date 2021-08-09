@@ -1,0 +1,49 @@
+.App {
+  &__form {
+    display: flex;
+    position: relative;
+
+    &-input {
+      width: 100%;
+      border: none;
+      padding: 20px 5px;
+
+      &--active {
+        width: 80%;
+      }
+    }
+
+    &-btn {
+      display: none;
+      width: 20%;
+      background-color: rgba(0, 0, 255, 0.8);
+      border: 2px solid rgba(0, 0, 255, 0.8);
+      color: #fff;
+      transition: all 0.3s linear;
+
+      &:hover {
+        color: rgba(0, 0, 255, 0.8);
+        background-color: #fff;
+        border: 2px solid rgba(0, 0, 255, 0.8);
+      }
+
+      &--active {
+        display: block;
+      }
+    }
+  
+    &-warning {
+      display: none;
+    }
+  
+    &-error {
+      background-color: #fff;
+      position: absolute;
+      display: inline;
+      color: red;
+      font-size: 12px;
+      bottom: 20px;
+      left: 7px;
+    }
+  }
+}

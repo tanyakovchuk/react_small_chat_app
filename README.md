@@ -1,17 +1,22 @@
-# React dynamic list of goods
-- Replace `<your_account>` with your Github username in the
- [DEMO LINK](https://<your_account>.github.io/react_dynamic-list-of-goods/)
-- Follow the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline)
+# Chat app
+ [DEMO LINK](https://tanyakovchuk.github.io/react_small_chat_app/)
 
 ## Task
-> Load [the goods](https://mate-academy.github.io/react_dynamic-list-of-goods/goods.json) and show them on the page
 
-1. Render 3 buttons loading the goods from server and saving them in the state:
-    - `Load All goods` shows all the received `goods`
-    - `Load 5 first goods` shows 5 first `goods` after sorting them by name
-    - `Load red goods` containing only `red` goods
-1. Server has only 1 endpoint returning all the goods, so you should prepare them after receiving.
-1. Create a component `GoodsList` accepting an array of goods and rendering them inside a `<ul>`
-1. Print a `name` of each `good` using `good.color`(for example `style={{ color: 'red' }}`)
-1. There should be a new request to the server on each button click.
-1. `GoodsList` should show the last loaded goods.
+Frontend Test Task
+Chat app using React
+__________________________________________________________________________
+1. One-to-one chat
+2. Header should include the name and the rounded avatar of the person you're texting with (e.g name: Elixirator, avatar: Any png image) as will be shown in the image.
+3. Main body is the list of the messages from you and your interlocutor
+4. Messages from you should be located on the right side
+5. Messages from interlocutor should be on the left side 
+6. The last message from the interlocutor should include an avatar
+7. Every message should be dated (you may use HH:mm:ss format)
+8. Footer should include the message box with the send button
+9. Send button should be available only if we have a message in the text box
+10. Don’t forget about tests
+11. Wrap it up to GitHub repo and send us a link
+12. UX/UI styling doesn’t much matter
+
+
