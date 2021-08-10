@@ -12,11 +12,11 @@ export class NewMessage extends React.Component {
   };
 
   handleChange = (event) => {
-    const { name, value } = event.target;
+    const { value } = event.target;
     const date = new Date().toLocaleTimeString();
 
     this.setState({
-      [name]: value,
+      message: value,
       user: 'first',
       date,
       error: !value,

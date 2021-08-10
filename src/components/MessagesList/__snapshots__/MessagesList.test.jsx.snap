@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessagesList render 1`] = `
+<div
+  className="App__content"
+>
+  <div
+    className="App__content-element App__content-element--right"
+  >
+    <img
+      alt="user_icon"
+      className="App__content-img"
+      src="./images/1.jpg"
+    />
+    <span>
+      <p
+        className="App__content-message"
+      >
+        Hey here!
+      </p>
+      <p
+        className="App__content-date"
+      >
+        19:10:05
+      </p>
+    </span>
+  </div>
+  <div
+    className="App__content-element"
+  >
+    <img
+      alt="user_icon"
+      className="App__content-img"
+      src="./images/1.jpg"
+    />
+    <span>
+      <p
+        className="App__content-message"
+      >
+        Hi! How are you?
+      </p>
+      <p
+        className="App__content-date"
+      >
+        19:16:05
+      </p>
+    </span>
+  </div>
+  <div
+    className="App__content-element"
+  >
+    <img
+      alt="user_icon"
+      className="App__content-img App__content-img--active"
+      src="./images/1.jpg"
+    />
+    <span>
+      <p
+        className="App__content-message"
+      >
+        Nice to see you here!
+      </p>
+      <p
+        className="App__content-date"
+      >
+        19:17:50
+      </p>
+    </span>
+  </div>
+</div>
+`;

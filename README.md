@@ -4,5 +4,6 @@ __________________________________________________________________________
 - Implementation of the app using the React.js
 - Markup & style: HTML, CSS
 - Methodology & preprocessing: BEM, SCSS
+- The project uses unit tests
 
 
